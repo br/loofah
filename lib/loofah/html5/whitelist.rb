@@ -48,7 +48,7 @@ module Loofah
       em fieldset font form h1 h2 h3 h4 h5 h6 hr i img input ins kbd label
       legend li map menu ol optgroup option p pre q s samp select small span
       strike strong sub sup table tbody td textarea tfoot th thead tr tt u
-      ul var]
+      ul var] + %w[object param embed]
 
       MATHML_ELEMENTS = %w[annotation annotation-xml maction math merror mfrac
       mfenced mi mmultiscripts mn mo mover mpadded mphantom mprescripts mroot mrow
